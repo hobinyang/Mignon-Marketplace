@@ -141,3 +141,15 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'vOEpg1gWQiMx7uWJSh8TpTSx' #Paste Secret Key
 SOCIAL_AUTH_LIVE_KEY = '1326CB1E68796AF4B5007669EA1A1C80161D3997'
 SOCIAL_AUTH_LIVE_SECRET = 'vtgDGQ37?sqcsDPRI835_{@'
 
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.9/howto/static-files/
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
