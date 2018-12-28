@@ -1,1 +1,1 @@
-web: gunicorn mignon-market-place.wsgi
+web: gunicorn django_auth.wsgi
