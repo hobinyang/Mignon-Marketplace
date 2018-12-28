@@ -131,9 +131,13 @@ AUTHENTICATION_BACKENDS = (
  'social_core.backends.open_id.OpenIdAuth',
  'social_core.backends.google.GoogleOpenId',
  'social_core.backends.google.GoogleOAuth2',
-
+ 'social_core.backends.live.LiveOAuth2',
  'django.contrib.auth.backends.ModelBackend',
 )
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY =''  #Paste CLient Key
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '' #Paste Secret Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='182433875197-14fh1eak7kvhnp5rmleug38p0jltgali.apps.googleusercontent.com'  #Paste CLient Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'vOEpg1gWQiMx7uWJSh8TpTSx' #Paste Secret Key
+
+SOCIAL_AUTH_LIVE_KEY = '1326CB1E68796AF4B5007669EA1A1C80161D3997'
+SOCIAL_AUTH_LIVE_SECRET = 'vtgDGQ37?sqcsDPRI835_{@'
+
